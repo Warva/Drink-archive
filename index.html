@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" 
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+
+<html lang="fi" xml:lang="fi" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title>Drinkkiarkisto</title>
+<link href="tyyli.css" type="text/css" rel="stylesheet" />
+<meta content="Henna Warva" name="author" />
+</head>
+
+<body>
+
+<div class="valikko">
+<p>
+<a href="index.html">Etusivu</a><br />
+<a href="servlet/Haku">Haku</a><br />
+<a href="servlet/DrinkkiAlku">Ehdota omaa drinkki&auml;</a><br />
+<a href="rekis.html">Rekister&ouml;idy</a>
+</p><p>
+<a href="servlet/Juomat?tunnus=3">Drinkit</a><br />
+<a href="servlet/Juomat?tunnus=2">Boolit</a><br />
+<a href="servlet/Juomat?tunnus=1">Alkoholittomat</a>
+</p>
+
+<form class="vali" method="post" action="servlet/Tunnistus">
+<p>Tunnus:<br /><input type="text" name="kayttaja" size="10" maxlength="20" /></p>
+<p>Salasana:<br /><input type="password" name="salasana" size="10" maxlength="10" /><p>
+<p><input type="submit" value="Sis&auml;&auml;n" /></p>
+</form>
+
+</div>
+
+<div class="main">
+<h1>Tervetuloa Drinkkiarkistoon</h1>
+
+<p class="keskitetty">Tämä on harkkatyönä toteutettu drinkkiarkisto.</p>
+
+</div>
+
+
+</body>
+</html>

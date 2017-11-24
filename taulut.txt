@@ -1,0 +1,44 @@
+create table Kayttaja(
+ktunnus integer not null,
+taso integer not null,
+kayttaja varchar(99) not null,
+salasana varchar(99) not null,
+knimi varchar(99) not null,
+maili varchar(99) not null,
+primary key(ktunnus));
+
+create table Drinkki(
+dtunnus integer not null,
+dnimi varchar(99) not null,
+ajankohta varchar(99),
+ltunnus integer not null,
+makeus varchar(20),
+lampotila varchar(20),
+valmistus varchar(20),
+latunnus integer not null,
+ohje varchar(1000),
+kuvaus varchar(1000),
+ehdotus integer,
+ainelm integer,
+primary key(dtunnus),
+foreign key (ltunnus) references Lasi(ltunnus),
+foreign key (latunnus) references Laji(latunnus));
+
+create table Lasi(
+ltunnus integer not null,
+lnimi varchar(99) not null,
+primary key(ltunnus));
+
+create table Kooste(
+dtunnus integer not null,
+maara double precision,
+tyyppi varchar(10),
+ainesosa varchar(99),
+foreign key (dtunnus) references Drinkki(dtunnus));
+
+create table Laji(
+latunnus integer not null,
+lanimi varchar(99) not null,
+primary key(latunnus));
+
+

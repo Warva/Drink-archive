@@ -1,0 +1,27 @@
+Kayttaja
+insert into Kayttaja values ('1', '1', 'henna', 'tarania', 'Henna Warva','henna.warva@cs.helsinki.fi');
+insert into Kayttaja values ('2', '2', 'tara', 'tara', 'Henna Warva','henna');
+insert into Kayttaja values ('3', '3', 'hanna', 'hanna', 'Hanna','hanna');
+
+Lasi
+insert into Lasi values ('1', 'Cocktaillasi');
+insert into Lasi values ('2', 'Grogilasi');
+insert into Lasi values ('3', 'Long Drink -lasi');
+insert into Lasi values ('4', 'Booli -lasi');
+
+Laji
+insert into Laji values ('1', 'Drinkki');
+insert into Laji values ('2', 'Booli');
+insert into Laji values ('3', 'Alkoholiton booli');
+insert into Laji values ('4', 'Alkoholiton drinkki');
+
+Kooste
+insert into Kooste values ('1','0,75','l','Valkoviini');
+insert into Kooste values ('1','2','dl','Triple Sec');
+insert into Kooste values ('1','2','dl','Vodka');
+insert into Kooste values ('1','1','l','Appelsiinimehu');
+insert into Kooste values ('1','1','l','Sitruunalimsa');
+
+Drinkki
+insert into Drinkki values ('1','Tiikeribooli','All Day','4','Makeahko','Jäinen','Rakennetaan','2','Kaada valkoviini, triple sec - likööri, vodka ja appelsiinimehu boolimaljaan. Lisää sitruunalimsa (sprite/7up) ja jäät juuri ennen tarjoilua. Koristele sitruuna- tai appelsiiniviipaleilla.','','1', '5');
+

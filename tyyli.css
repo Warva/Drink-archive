@@ -1,0 +1,75 @@
+@media print, screen {
+			
+	h1,h2,h3,h4 {text-align: center; color: #000000;}
+				
+	.paksu {font-weight: bold;}	
+
+	.drinkki {
+	margin-left: 200px; 
+	margin-top: 10px;
+	}
+
+	.vari {color: #2C578D;}
+}
+
+@media screen {
+
+	body {
+	   background-color: #FFFFFF; 
+	  	background-attachment: fixed; 
+	 	background-repeat: repeat;
+	  	color: #000000;
+	 	}
+			
+	a:link {color: #333399;}
+	a:visited {color: #336699;}
+			
+	.valikko {
+		border-width: 5px;
+		border-style: groove;
+		border-color: blue;
+		margin-left: 90px; 
+		margin-top: 60px; 
+		position: absolute;
+		padding: 22px;
+		background-color: #FFFFFF;
+		}
+	
+	.main {
+		border-width: 5px;
+		border-style: groove;
+		border-color: blue;
+		min-height: 450px;
+		min-width: 550px;
+		margin-right: 200px;
+		margin-left: 200px; 
+		margin-top: 10px; 
+		padding: 25px;
+		padding-left: 60px;
+		padding-top: 5px;
+		}
+	
+	.sisennys {margin-left: 30px;}
+	.sisennys2 {margin-left: 100px;}
+
+	form.keskitetty {margin-left: 100px; margin-top: 30px;}	
+	form.vali {margin-top: 40px;}
+
+	table.keskitetty {margin-left: 100px; margin-top: 30px;}
+
+	.keskitetty {margin-left: 100px; margin-top: 70px;}
+	.keskitetty2 {margin-left: 100px; margin-top: 5px;}
+}
+
+@media print {
+
+	 body {
+	   font-size: 10pt;
+	   color: #000000;
+	   background-color: #FFFFFF;
+	   }
+
+	 a {color: #000000;}
+	 
+	 h1,h2,h3,h4 {text-align: center; color: #000000;}
+}
